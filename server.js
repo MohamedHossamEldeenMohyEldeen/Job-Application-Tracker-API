@@ -14,6 +14,7 @@ app.set('json spaces', 2);
 // Routes
 app.use('/api/todo', tasks);
 
+// When The Port is open
 app.listen(PORT, () => 
 {
   console.log(`Server Started On Port ${PORT}`);
